@@ -33,6 +33,11 @@ Occlusion-ViT/
    - [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
    - [LFW](http://vis-www.cs.umass.edu/lfw/)
 
+3. Download post trained weight:
+
+   - [Google Drive](Google Drive)
+   - [Ali Cloud](Ali Cloud)
+
 ## Training
 
 To train the ViT model on the occluded **CelebA** dataset, run:
