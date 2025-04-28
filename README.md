@@ -56,9 +56,13 @@ python -u eval_vit_occluded.py
 ## Result
 
 Pretrained weight(b16_224 version from **timm** library) performance:
-![(/img/roc_val_pretrained_eye.png)]
+
+![](/img/roc_val_pretrained_eye.png)
+
 Improved performance:
-![(/img/roc_val_occluded_eye.png.png)]
+
+![](/img/roc_val_occluded_eye.png)
+
 Both of the performances are under the eyes covered situation on the LFW verification task. You can check the **img** directory for more performance plots.
 
 ## License
