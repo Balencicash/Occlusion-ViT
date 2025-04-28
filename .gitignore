@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Model checkpoints
+*.pth
+*.ckpt
+checkpoints/
+
+# Dataset
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+runs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
