@@ -104,7 +104,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--model_path", type=str, default="models/vit_linear_occluded_best.pth"
+        "--model_path", type=str, default="models/vit_occluded.pth"
     )
     parser.add_argument("--lfw_dir", type=str, default="data/LFW")
     parser.add_argument("--batch_size", type=int, default=64)
