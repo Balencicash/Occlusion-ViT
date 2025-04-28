@@ -53,6 +53,14 @@ Once trained, validate the model on the **LFW** dataset:
 python -u eval_vit_occluded.py
 ```
 
+## Result
+
+Pretrained weight(b16_224 version from **timm** library) performance:
+![(/img/roc_val_pretrained_eye.png)]
+Improved performance:
+![(/img/roc_val_occluded_eye.png.png)]
+Both of the performances are under the eyes covered situation on the LFW verification task. You can check the **img** directory for more performance plots.
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
